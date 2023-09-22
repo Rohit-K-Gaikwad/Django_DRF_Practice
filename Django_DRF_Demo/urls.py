@@ -20,7 +20,7 @@ from Student import view_drf
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("studentinfo/<int:pk>", views.student_deatils),
+    path("studentinfo/<int:pk>", views.student_details),
     path("studentlist/", views.student_list),
     path("student_create/", views.student_create),
     path("studentdata/", view_drf.student_api)
