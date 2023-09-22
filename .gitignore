@@ -1,0 +1,11 @@
+*.pyc
+__pycache__
+.reports
+.pytest_cache
+.vscode
+db.sqlite3
+.tox
+venv
+.idea
+
+
